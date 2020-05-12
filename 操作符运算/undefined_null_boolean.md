@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-19 14:01:23
+ * @LastEditTime: 2020-04-27 18:45:23
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /vue/Users/rainbow/Documents/工作/前端/learn/高级程序设计/操作符运算/undefined_null_boolean.md
+ -->
 1. null :空对象指针
 
 2. undefined派生与null ,所以 undefined == null;

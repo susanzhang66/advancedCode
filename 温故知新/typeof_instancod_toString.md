@@ -1,3 +1,12 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-24 14:19:54
+ * @LastEditTime: 2020-04-30 15:40:11
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /vue/Users/rainbow/Documents/工作/前端/learn/高级程序设计/温故知新/typeof_instancod_toString.md
+ -->
+
 ## **typeof**
 ```javascript
 console.log(typeof 2);               // number
@@ -8,6 +17,10 @@ console.log(typeof []);              // object
 console.log(typeof {});              // object
 console.log(typeof function(){});    // function
 console.log(typeof null);            // object
+
+let s = Symbol(); // Symbol函数前不能使用new命令
+typeof s  //独一无二的数据。
+// "symbol"
 ```
 优点：能够快速区分基本数据类型 缺点：不能将Object、Array和Null区分，都返回object 
 
